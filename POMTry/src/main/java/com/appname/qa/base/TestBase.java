@@ -17,7 +17,6 @@ public class TestBase {
 
 	public TestBase() {
 		cReader = new ConfigReader();
-
 	}
 
 	public static void initialize() {

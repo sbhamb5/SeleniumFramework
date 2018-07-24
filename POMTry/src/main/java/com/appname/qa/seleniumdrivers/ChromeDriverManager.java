@@ -12,7 +12,7 @@ public class ChromeDriverManager extends DriverManager {
 		if (driver == null) {
 			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("testy-type");
+			options.addArguments("test-type");
 			driver = new ChromeDriver(options);
 		}
 	}
