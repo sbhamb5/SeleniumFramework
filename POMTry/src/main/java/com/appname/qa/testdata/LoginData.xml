@@ -1,0 +1,18 @@
+<LoginData>
+	<Login>
+		<UserName>User1</UserName>
+		<Password>Pass1</Password>
+	</Login>
+	<Login>
+		<UserName>User2</UserName>
+		<Password>Pass2</Password>
+	</Login>
+	<Login>
+		<UserName>User3</UserName>
+		<Password>Pass3</Password>
+	</Login>
+	<Login>
+		<UserName>User4</UserName>
+		<Password>Pass4</Password>
+	</Login>
+</LoginData>

@@ -24,24 +24,28 @@ public class ConfigReader {
 
 	}
 
-	public String GetUserName() {
-		return prop.getProperty("userName");
+	public String GetDriverType() {
+		return prop.getProperty("driver");
+	}
+
+	public String GetEmail() {
+		return prop.getProperty("email");
+	}
+
+	public int GetimplicitlyWaitFor() {
+		return Integer.parseInt(prop.getProperty("implicitlyWait"));
 	}
 
 	public String GetPassword() {
 		return prop.getProperty("password");
 	}
 
-	public String GetDriverType() {
-		return prop.getProperty("driver");
-	}
-
 	public String GetURL() {
 		return prop.getProperty("URL");
 	}
 
-	public int GetimplicitlyWaitFor() {
-		return Integer.parseInt(prop.getProperty("implicitlyWait"));
+	public String GetUserName() {
+		return prop.getProperty("userName");
 	}
 
 }
